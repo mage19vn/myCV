@@ -4,8 +4,6 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/myCV",
   /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
