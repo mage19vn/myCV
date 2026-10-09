@@ -71,7 +71,7 @@ export default function Home() {
           
           <div className="flex justify-between items-start mb-6">
             <span className="bg-red-500/15 text-red-400 px-3 py-1.5 rounded-md text-xs font-mono font-medium border border-red-500/20 shadow-[0_0_15px_rgba(248,113,113,0.2)]">
-              Build Error
+              Build NotError
             </span>
             <div className="flex gap-3 text-[#888] no-print">
               <button onClick={handleCopy} className="hover:text-white transition-colors" title="Copy Link">
@@ -105,7 +105,7 @@ export default function Home() {
             
             {/* Code Body */}
             <div className="p-4 overflow-x-auto text-[13px] md:text-sm">
-              <CodeLine num={1}><span className="text-[#888] italic">// ERROR: Developer skills exceeded standard parameters</span></CodeLine>
+              <CodeLine num={1}><span className="text-[#888] italic">// NOT_ERROR: Developer skills exceeded standard parameters</span></CodeLine>
               <CodeLine num={2}><span className="text-[#F87171] font-bold">import</span> &#123; <span className="text-[#E2E8F0] font-bold">Candidate</span> &#125; <span className="text-[#F87171] font-bold">from</span> <span className="text-[#60A5FA]">"@/models/developer"</span>;</CodeLine>
               <CodeLine num={3}>&nbsp;</CodeLine>
               
